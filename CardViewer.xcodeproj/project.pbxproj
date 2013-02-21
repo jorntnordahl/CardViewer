@@ -18,6 +18,7 @@
 		0AD3008116D676580006535E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD3008016D676580006535E /* Default-568h@2x.png */; };
 		0AD3008416D676580006535E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD3008216D676580006535E /* MainStoryboard.storyboard */; };
 		0AD3008716D676580006535E /* CardChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3008616D676580006535E /* CardChooserViewController.m */; };
+		0AD3008F16D677320006535E /* CardDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3008E16D677320006535E /* CardDisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		0AD3008316D676580006535E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0AD3008516D676580006535E /* CardChooserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardChooserViewController.h; sourceTree = "<group>"; };
 		0AD3008616D676580006535E /* CardChooserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardChooserViewController.m; sourceTree = "<group>"; };
+		0AD3008D16D677320006535E /* CardDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDisplayViewController.h; sourceTree = "<group>"; };
+		0AD3008E16D677320006535E /* CardDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				0AD3007916D676580006535E /* CardChooserAppDelegate.h */,
 				0AD3007A16D676580006535E /* CardChooserAppDelegate.m */,
 				0AD3008216D676580006535E /* MainStoryboard.storyboard */,
+				0AD3008D16D677320006535E /* CardDisplayViewController.h */,
+				0AD3008E16D677320006535E /* CardDisplayViewController.m */,
 				0AD3008516D676580006535E /* CardChooserViewController.h */,
 				0AD3008616D676580006535E /* CardChooserViewController.m */,
 				0AD3007116D676580006535E /* Supporting Files */,
@@ -177,6 +182,7 @@
 				0AD3007716D676580006535E /* main.m in Sources */,
 				0AD3007B16D676580006535E /* CardChooserAppDelegate.m in Sources */,
 				0AD3008716D676580006535E /* CardChooserViewController.m in Sources */,
+				0AD3008F16D677320006535E /* CardDisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
